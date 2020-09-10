@@ -63,6 +63,7 @@ class Dog
       dog.id = dog[0]
       dog.name = dog[1]
       dog.breed = dog[2]
+      dog
     else
       dog = self.create(name: name, breed: breed)
     end
