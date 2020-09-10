@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog 
   
   attr_accessor :name, :breed
@@ -64,5 +66,6 @@ class Dog
       dog = self.create(name: name, breed: breed)
     end
     dog
+    binding.pry
   end
 end 
